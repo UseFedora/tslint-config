@@ -1,0 +1,20 @@
+{
+  "name": "@teachable/tslint-config",
+  "version": "1.0.0",
+  "description": "The shared TypeScript linter configuration for Teachable apps.",
+  "main": "tslint-base.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript",
+    "TSLint"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "tslint": "^5.8.0"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.9.2"
+  }
+}
