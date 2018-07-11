@@ -1,0 +1,56 @@
+{
+  "defaultSeverity": "error",
+  "extends": "tslint-config-airbnb",
+  "jsRules": {},
+  "rules": {
+      "array-bracket-spacing": false,
+      "arrow-parens": false,
+      "cyclomatic-complexity": [true, 20],
+      "max-line-length": [true, 120],
+      "max-params": ["error", 6],
+      "no-duplicate-imports": false,
+      "object-shorthand-properties-first": false,
+      "quotemark": [true, "single", "jsx-double"],
+      "semicolon": [true, "never", "ignore-interfaces"],
+      "ter-arrow-parents": false,
+      "import-name": false,
+      "ter-arrow-parens": false,
+      "space-before-function-paren": false,
+      "align": false,
+      "no-increment-decrement": false,
+      "prefer-array-literal": false,
+      "variable-name": [
+          true,
+          "ban-keywords",
+          "check-format",
+          "allow-pascal-case",
+          "allow-snake-case"
+      ],
+      "function-name": [
+          true,
+          {
+            "function-regex": "^[a-zA-Z$][\\w\\d]+$",
+            "method-regex": "^[a-z$][\\w\\d]+$",
+            "private-method-regex": "^[a-z$][\\w\\d]+$",
+            "protected-method-regex": "^[a-z$][\\w\\d]+$",
+            "static-method-regex": "^[a-z$][\\w\\d]+$"
+          }
+      ],
+      "trailing-comma": [
+          true,
+          {
+              "multiline": {
+                  "objects": "always",
+                  "arrays": "always",
+                  "functions": "never",
+                  "typeLiterals": "ignore"
+              },
+              "esSpecCompliant": true
+          }
+      ]
+  },
+  "linterOptions": {
+      "exclude": ["**/*.d.ts"]
+  },
+  "rulesDirectory": []
+}
