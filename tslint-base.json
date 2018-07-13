@@ -1,6 +1,6 @@
 {
   "defaultSeverity": "error",
-  "extends": "tslint-config-airbnb",
+  "extends": ["tslint-config-airbnb", "tslint-react"],
   "jsRules": {},
   "rules": {
       "array-bracket-spacing": false,
@@ -19,6 +19,8 @@
       "align": false,
       "no-increment-decrement": false,
       "prefer-array-literal": false,
+      "jsx-no-lambda": false,
+      "jsx-no-multiline-js": false,
       "variable-name": [
           true,
           "ban-keywords",
