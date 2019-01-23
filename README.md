@@ -1,17 +1,18 @@
 # Teachable TSLint Config
 
-This is a shared configuration of TSLint for Teachable apps. We'll publish this on npm soon, but for now add this line to your package.json:
+This is a shared configuration of TSLint for Teachable apps:
 
-```json
-"dependencies": {
-  "@teachable/tslint-config": "UseFedora/tslint-config"
-}
-```
-
-Here's the syntax for your tslint.json file:
-
-```json
+How-To
+======
+1. `yarn add --dev @teachable/tslint-config`
+2. Extend from it in `tslint.json`:
+```javascript
 {
-    "extends": "@teachable/tslint-config"
+  "extends": "@teachable/tslint-config"
 }
 ```
+
+To deploy:
+=========
+
+ `npm version minor` (please follow semver)

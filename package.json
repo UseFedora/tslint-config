@@ -1,6 +1,6 @@
 {
   "name": "@teachable/tslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The shared TypeScript linter configuration for Teachable apps.",
   "main": "tslint-base.json",
   "scripts": {
