@@ -24,6 +24,10 @@
       "max-classes-per-file": [true, 1],
       "no-parameter-reassignment": true,
       "no-inferrable-types": [true, "ignore-params"],
+      "react-a11y-image-button-has-alt": true,
+      "react-a11y-img-has-alt": true,
+      "react-a11y-role": true,
+      "react-a11y-input-elements": true,
       "variable-name": [
           true,
           "ban-keywords",
